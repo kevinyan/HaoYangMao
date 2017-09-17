@@ -1,4 +1,6 @@
 // pages/index/index.js
+var API = require('../../libs/api.js');
+
 Page({
 
     /**
@@ -15,7 +17,15 @@ Page({
         ]
     },
     checkboxChange: function(e) {
-        console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+        // console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+    
+      API.ajax('', function (res) {
+        console.log(res);
+      });
+
+
+
+
     },
 
     /**
@@ -29,7 +39,6 @@ Page({
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function() {
-
     },
 
     /**

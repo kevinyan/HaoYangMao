@@ -5,10 +5,13 @@
     "tabBar": {
         "list": [{
             "pagePath": "pages/index/index",
-            "text": "首页"
+            "text": "我的记录"
         }, {
             "pagePath": "pages/logs/logs",
-            "text": "日志"
+            "text": "余额提现"
+        },{
+          "pagePath": "pages/logs/logs",
+          "text": "常见问题"
         }]
     },
     "networkTimeout": {
