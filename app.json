@@ -1,29 +1,16 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/send/send"
     ],
-    "tabBar": {
-        "list": [{
-            "pagePath": "pages/index/index",
-            "text": "我的记录"
-        }, {
-            "pagePath": "pages/logs/logs",
-            "text": "余额提现"
-        },{
-          "pagePath": "pages/logs/logs",
-          "text": "常见问题"
-        }]
-    },
     "networkTimeout": {
         "request": 10000,
         "downloadFile": 10000
     },
     "debug": true,
     "window": {
-        "navigationBarBackgroundColor": "yellow",
+        "navigationBarBackgroundColor": "#d95940",
         "navigationBarTextStyle": "black",
-        "backgroundColor": "#eeeeee",
-        "backgroundTextStyle": "light",
-        "navigationBarTitleText": "薅羊毛"
+        "navigationBarTitleText": "包养你-创意红包",
+        "backgroundColor":"red"
     }
 }

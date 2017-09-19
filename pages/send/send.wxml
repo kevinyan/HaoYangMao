@@ -1,0 +1,35 @@
+<view class="contanner">
+  <view class="section">
+    <label>
+      <text>设置口令</text>
+      <input maxlength="10" placeholder="谢谢老板" />
+    </label>
+    <text>小伙伴们说对口令就能获得随机的打赏</text>
+
+  </view>
+
+  <view class="section">
+    <label>
+      <text>赏金（元）</text>
+      <input type="number" maxlength="10" placeholder="填写金额" />
+    </label>
+  </view>
+
+  <view class="section">
+    <label>
+      <text>数量（个）</text>
+      <input type="number" maxlength="10" placeholder="填写数量" />
+    </label>
+  </view>
+
+  <text class='payintroduce'>需要支付 0.00 元服务费，优先使用余额0.00</text>
+  <button type='primary'>生成口令</button>
+</view>
+
+<view class='footer'>
+  <ul>
+    <li>我的记录</li>
+    <li>余额提现</li>
+    <li>常见问题</li>
+  </ul>
+</view>

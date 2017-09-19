@@ -1,6 +1,6 @@
 App({
-  onLaunch: function () {
-    console.log('onLaunch')
+  onLaunch: function (options) {
+    console.log(options)
   },
   onShow: function () {
     console.log('onShow')

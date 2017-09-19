@@ -1,2 +1,2 @@
 # HaoYangMao
-薅羊毛
+红包基础
